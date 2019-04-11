@@ -1,0 +1,30 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @LastEditors: Please set LastEditors
+ * @Date: 2019-04-10 19:32:35
+ * @LastEditTime: 2019-04-10 20:29:16
+ -->
+{% load static %}
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+
+<link rel="stylesheet" href="{% static  '/blog/normalize.css'%}">
+</head>
+
+<body>
+
+<div class="login">
+	<h1>Login</h1>
+	<form action="" method="post">
+		<input type="text" name="u" placeholder="用户名" required="required" />
+		<input type="password" name="p" placeholder="密码" required="required" />
+		<button type="submit" class="btn btn-primary btn-block btn-large">登录</button>
+	</form>
+</div>
+
+</body>
+</html>
